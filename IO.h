@@ -2,7 +2,8 @@
 #define _IO_
 
 #ifndef LINUX
-#include "SDL2/*SDL.h"
+#define SDL_MAIN_HANDLED 
+#include <SDL2/SDL.h>
 #else 
 #include <SDL/SDL.h>
 #include "SDL/SDL_GfxPrimitives/sdl_gfxprimitives.h"
