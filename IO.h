@@ -3,10 +3,10 @@
 
 #ifndef LINUX
 #define SDL_MAIN_HANDLED 
-#include <include/SDL.h>
-#include <include/SDL_gfxPrimitives.h>
+#include "include/SDL.h"
+#include "include/SDL_gfxPrimitives.h"
 #else 
-#include <SDL/SDL.h>
+#include "SDL/SDL.h"
 #include "SDL/SDL_GfxPrimitives/sdl_gfxprimitives.h"
 #endif 
 #pragma comment (lib, "SDL/lib/SDL.lib")
