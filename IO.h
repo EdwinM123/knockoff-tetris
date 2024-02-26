@@ -3,7 +3,8 @@
 
 #ifndef LINUX
 #define SDL_MAIN_HANDLED 
-#include <SDL2/SDL.h>
+#include <include/SDL.h>
+#include <include/SDL_gfxPrimitives.h>
 #else 
 #include <SDL/SDL.h>
 #include "SDL/SDL_GfxPrimitives/sdl_gfxprimitives.h"

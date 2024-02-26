@@ -1,5 +1,4 @@
 #include "Game.h"
-#include 
 #ifndef LINUX 
 #include <windows.h>
 #endif
